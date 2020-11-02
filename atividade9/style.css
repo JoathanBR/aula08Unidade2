@@ -1,0 +1,44 @@
+div{
+    height: 250px;
+    width: 350px;
+}
+
+body{
+    text-align: center;
+}
+
+img{
+    height: 200px;
+    width: 300px;
+}
+
+p{
+    text-align: justify;
+}
+
+.galeria{
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+/*Grande*/
+@media (min-width: 680px){
+    .galeria{
+        display: inline-block;
+    }
+}
+
+/*Pequena*/
+@media (max-width: 419px){
+    .galeria{
+        display: block;
+    }
+}
+
+/*Média*/
+@media (min-width: 420px) and (max-width: 679px){
+    .galeria{
+        display: flex;
+    }
+}

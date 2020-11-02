@@ -1,0 +1,64 @@
+img{
+    height: 100%;
+    width: 100%;
+}
+
+div{
+    margin: 5px;
+}
+
+body{
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 400px;
+}
+
+.m1{
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.m2{
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.ma3{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-row-end: span 2;
+
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.ma4{
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    grid-column-start: 1;
+    grid-column-end: 3; 
+}
+
+
+.ma5{
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.ma6{
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
